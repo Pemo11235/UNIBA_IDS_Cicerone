@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".view.SettingsFragment">
+
+
+    <LinearLayout
+        android:id="@+id/mainView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#1A00B0FF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/settings"
+            android:textAlignment="center"
+            android:textColor="@color/text_on_background"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewLogout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="@string/logout"
+            android:textAlignment="center"
+            android:textColor="@color/text_on_background"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewEditAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="@string/edit_profile"
+            android:textAlignment="center"
+            android:textColor="@color/text_on_background"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewChangeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="@string/language"
+            android:textAlignment="center"
+            android:textColor="@color/text_on_background"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewReadContract"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="@string/terms_service"
+            android:textAlignment="center"
+            android:textColor="@color/text_on_background"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDeleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="@string/delete_account"
+            android:textAlignment="center"
+            android:textColor="@color/text_on_background"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,560 @@
+<resources>
+
+    <string name="app_name">Cicerone</string>
+
+    <string name="username">Username</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="photo">Photo</string>
+    <string name="biography">Biography</string>
+    <string name="role">Role</string>
+    <string name="first_last_name">First and last name</string>
+
+    <string name="cicerone_role_cap">Cicerone</string>
+    <string name="globetrotter_role_cap">Globetrotter</string>
+
+    <string name="login">Sign in for Cicerone</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Sign up for Cicerone</string>
+    <string name="sign_up">Sign up</string>
+    <string name="empty_email">E-Mail not inserted or wrong</string>
+    <string name="empty_password">Password not inserted</string>
+    <string name="user_found">Access granted! Welcome to Cicerone!</string>
+    <string name="user_not_found">Wrong username or password! Try again</string>
+    <string name="need_help">Password recovery</string>
+    <string name="password_recovery_dialog">
+        Have you forgot your password?\nDon\'t worry!\nInsert your email here, we provide to
+        send you an email with a new password.\nRemember to change it after you sign in.
+    </string>
+    <string name="send_mail">Send e-mail</string>
+    <string name="sending_mail">Sending e-mail...</string>
+    <string name="recovery_email_object">Recovery password - Cicerone</string>
+    <string name="recovery_email_body">
+        Hi,\nafter the request you made, we sent you a new password to be able to access
+        the service offered by Cicerone with your account. Remember to change your
+        password as soon as you log in to Cicerone.
+    </string>
+    <string name="recovery_email_password">The new password is </string>
+    <string name="recovery_email_conclusion">\nEnjoy your time in Cicerone!</string>
+
+    <string name="logging_in">Logging in...</string>
+    <string name="signing_in">Sign in...</string>
+    <string name="oops_json">OOPS! Something went wrong with login. Try again!</string>
+    <string name="success_sign_in">You are signed in Cicerone! Login for starting using the service.</string>
+    <string name="empty_fields">Some fields are empty! Please complete them.</string>
+
+    <string name="register_compiling_field">Insert your data</string>
+    <string name="are_you_role">Are you a cicerone or a globetrotter?</string>
+    <string name="are_you_signed">Are you already signed? Sign in!</string>
+
+    <string name="about_me">About me</string>
+    <string name="name">Name</string>
+    <string name="spoken_languages">Spoken languages</string>
+    <string name="my_account">My Account</string>
+    <string name="no_information">No informations</string>
+    <string name="acquiring_data">Acquiring data...</string>
+    <string name="saving_data">Saving data...</string>
+    <string name="success_save_data">Data stored successfully</string>
+    <string name="error_save_data">Error in storing data</string>
+    <string name="tour_data_before_event_data">There is at least an event whose date is later than the date entered</string>
+
+
+    <string name="edit_profile">Edit profile</string>
+    <string name="logout">Logout</string>
+    <string name="change_photo">Change profile photo</string>
+    <string name="edit_spoken_languages">Add/remove spoken languages</string>
+    <string name="edit_password">Edit password</string>
+    <string name="submit">Submit</string>
+    <string name="success_edit">Profile edited successfully</string>
+    <string name="empty_name">Name not inserted</string>
+    <string name="empty_phone">Phone number not inserted or wrong</string>
+
+    <string name="logout_message">Are you sure you want to exit from Cicerone?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="settings">Settings</string>
+    <string name="terms_service">Terms of service</string>
+    <string name="delete_account">Delete account</string>
+
+    <string name="language">Select language</string>
+    <string name="select_language_message">
+        Selecting one of the following language.\nOnce you have selected the language you want,
+        the application translate the actual text and reload the content.
+    </string>
+    <string name="change_language_message">Changing language to</string>
+    <string name="en">English</string>
+    <string name="it">Italian</string>
+
+    <string name="insert_old_password">Insert old password</string>
+    <string name="insert_new_password">Insert new password</string>
+    <string name="reinsert_new_password">Reinsert new password</string>
+    <string name="wrong_password">Inserted wrong old password</string>
+    <string name="new_password_different">The insert and reinserted passwords are not equals</string>
+    <string name="new_password_no_change">The old and new passwords are equals</string>
+    <string name="success_change_password">Password changed successfully</string>
+    <string name="success_change_spoken_languages">Spoken languages changed successfully</string>
+
+    <string name="my_tours">My tours</string>
+    <string name="new_tour">New tour</string>
+    <string name="valid_tours">Ongoing</string>
+    <string name="past_tours">Past</string>
+
+    <string name="tour_name">Tour name</string>
+    <string name="tour_description">Description</string>
+    <string name="tour_cost">Cost</string>
+    <string name="tour_start_and_end_date">Start and end tour date</string>
+    <string name="tour_start_and_end_date_description">
+        Warning! The start and end date
+        of the tour are meant to be the dates
+        within which one or more event related to it
+        can be done.
+    </string>
+    <string name="tour_locations">Locations</string>
+    <string name="add_location">Add location</string>
+    <string name="no_location">No locations</string>
+    <string name="no_date">No date</string>
+    <string name="reset">Reset</string>
+    <string name="selected_location">Selected locations</string>
+    <string name="wrong_date_after">The start date is later than the end date</string>
+    <string name="wrong_date_after_tour">The start date is later than the tour\'s end date</string>
+    <string name="wrong_date_before_now">One or both dates are previous or equals than today\'s date</string>
+    <string name="wrong_date_before_n_days">The start and end date cannot be earlier than</string>
+    <string name="wrong_end_date_before_now">The end date is previous than today\'s date</string>
+    <string name="acquiring_tour_data">Loading tour data...</string>
+    <string name="no_tour_associated">You have no tour associated</string>
+    <string name="start_inserting_tour">Let\'s start with adding a new tour!</string>
+    <string name="start_registering_tour">Let\'s start with subscribing to a new tour!</string>
+
+    <string name="tour_search">Search on tours</string>
+    <string name="no_tour_find">No tour find</string>
+    <string name="better_search_keywords">Try again with better keywords</string>
+    <string name="tour_search_content_cicerone">Search for content or cicerone</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notification">Notification</string>
+    <string name="no_notifications_find">No notifications find</string>
+    <string name="notifications_from">Notification from:</string>
+    <string name="notifications_object">Object:</string>
+    <string name="notifications_tour">Event tour</string>
+    <string name="notifications_created_on">Send on</string>
+    <string name="notification_start_end_date">Start and end event dates</string>
+    <string name="event_description">Event description</string>
+    <string name="notification_description">Notification message</string>
+
+    <string name="tour">Tour</string>
+    <string name="tour_info">Tour general info</string>
+
+    <string name="tour_events">Tour Events</string>
+    <string name="tour_no_events">There are no events set</string>
+    <string name="chooice_event">Choose an event</string>
+    <string name="chooice_event_description">
+        Select an event from the list below. By selecting it, you can view its
+        information and you can decide later whether or not to request the subscription
+        to its cicerone.
+    </string>
+    <string name="not_available_event">No longer available</string>
+    <string name="expired_event">Expired</string>
+    <string name="not_available_event_description">The event is not available due to lack of vacancies</string>
+    <string name="expired_event_description">The event is not available due to expired date</string>
+    <string name="subs_remaining_event">places available</string>
+    <string name="selected_event">Selected event</string>
+    <string name="selected_event_data">Data from selected event</string>
+    <string name="already_subscribed_event">Already subscribed</string>
+    <string name="already_requested_event">Already requested</string>
+    <string name="already_subscribed_event_description">This event is already subscribed</string>
+    <string name="already_requested_event_description">This event is already requested</string>
+    <string name="already_requested_denied_event_description">
+        This event was already requested but the cicerone denied your request.
+        You cannot re-send another request for this event.
+    </string>
+    <string name="event_spoken_languages">Event spoken languages</string>
+    <string name="event_additional_description">Additional description for the event</string>
+    <string name="tour_cost_per_person">Cost per person</string>
+    <string name="event_group_dimension">Size of your group</string>
+    <string name="event_group_dimension_description">
+        Insert the size of your group. It is important for the cicerone to know
+        the number of people who apply to participate in this event. Note that
+        if the group is deemed too large or there are not enough vacancies, the
+        request may be rejected by the cicerone.
+    </string>
+    <string name="selected_event_data_description">
+        In the following section are shown all the information related to the selected event.
+        Also, is included a form for the insertion of the size of the group that requires to participate
+        in the same event. If the event has a price (defined as cost per person) you
+        will be asked, after acceptance of the request, to make payment, executable within
+        the maximum period of three days from the start of the event. If the payment is not
+        executed and expiration is reached, the cicerone has the right to cancel the
+        registration. However, the maximum payment term may be subject to variations at
+        the behest of the cicerone.
+    </string>
+    <string name="send_request">Send request</string>
+    <string name="negative_group_dimension">Cannot insert a negative or zero size for group</string>
+    <string name="group_dimension_excedeed_max_subscribed">The size of group exceeds the maximum of subscriptions</string>
+    <string name="group_dimension_sum_excedeed_max_subscribed">The size of group needs more vacancies than available</string>
+    <string name="oops_request">Oops! Something went wrong with your request. Try again!</string>
+    <string name="request_send_successfully">Request send successfully!</string>
+    <string name="request_send_successfully_description">
+        Your request for the event has been successfully submitted to the cicerone and
+        he will accept or reject it. Anyway, you will receive a notification with the status
+        of the request when the cicerone responds to it.
+    </string>
+    <string name="come_back_to_search">Back to search</string>
+
+    <string name="tour_languages">Tour spoken languages (from its events)</string>
+    <string name="cicerone">Cicerone</string>
+    <string name="feedbacks">User feedback</string>
+    <string name="best_feedback"><![CDATA[<strong>Best Feedback</strong><br><i>]]></string>
+    <string name="worst_feedback"><![CDATA[<br><br><strong>Worst Feedback</strong><br><i>]]></string>
+    <string name="no_feedback">No feedback available</string>
+    <string name="from_feedback"><![CDATA[</i>says:<br>]]></string>
+    <string name="read_all_feedbacks"><![CDATA[<br><br><strong>Read all feedback ></strong><br>]]></string>
+    <string name="subscribe">Subscribe</string>
+    <string name="no_spoken_languages">No information on spoken languages</string>
+
+    <string name="GLOBETROTTER_MADE_PAYMENT">Payment made</string>
+    <string name="GLOBETROTTER_MADE_REQUEST">Event request </string>
+    <string name="CICERONE_ACCEPT_REQUEST">Accepted event request</string>
+    <string name="CICERONE_REFUSE_REQUEST">Refused event request</string>
+    <string name="CICERONE_REMOVED_GLOBETROTTER_FROM_EVENT">Removed from event</string>
+    <string name="GLOBETROTTER_RESIGN_EVENT">Resigned event</string>
+    <string name="CICERONE_DELETE_EVENT">Deleted event</string>
+    <string name="CICERONE_EDIT_EVENT_DATE">Edit event date</string>
+    <string name="CICERONE_REMOVE_LOCATION">Location removed</string>
+    <string name="CICERONE_ADD_LOCATION">Location added</string>
+    <string name="GLOBETROTTER_MADE_FEEDBACK">New feedback</string>
+    <string name="CICERONE_DELETE_TOUR">Deleted tour</string>
+    <string name="GLOBETROTTER_MADE_PAYMENT_DESCRIPTION">
+        Globetrotter {SENDER} has made the payment correctly.
+        From this moment on, it cannot be removed from the activity unless
+        of serious situations.
+    </string>
+    <string name="GLOBETROTTER_MADE_REQUEST_DESCRIPTION">
+        Globetrotter {SENDER} has sent you a registration request
+        to the event described. To be redirected to the page of requests and
+        send him a reply, select the button at the bottom of the page.
+    </string>
+    <string name="CICERONE_ACCEPT_REQUEST_DESCRIPTION">
+        Cicerone {SENDER} has accepted your application for subscribe
+        to the event described. To make the payment select the button
+        at the bottom of the page. Remember that you have to make the payment
+        within three days of the start of the event.
+    </string>
+    <string name="CICERONE_REFUSE_REQUEST_DESCRIPTION">
+        Cicerone {SENDER} refused your application for subscribe
+        to the event described. Remember that you can decide to send a
+        new request for registration for another event of the same activity.
+    </string>
+    <string name="CICERONE_REMOVED_GLOBETROTTER_FROM_EVENT_DESCRIPTION">
+        Cicerone {SENDER} has decided to remove you from the event.
+        For any enquiries, please contact him at the e-mail address below.
+    </string>
+    <string name="GLOBETROTTER_RESIGN_EVENT_DESCRIPTION">
+        Globetrotter {SENDER} has decided to give up the event.
+    </string>
+    <string name="CICERONE_DELETE_EVENT_DESCRIPTION">
+        Cicerone {SENDER} has decided to delete the described event.
+        Remember that you can decide to send a new registration request
+        for another event of the same activity.
+    </string>
+    <string name="CICERONE_EDIT_EVENT_DATE_DESCRIPTION">
+        Cicerone {SENDER} has changed the date of the event at which
+        you are associated.
+    </string>
+    <string name="CICERONE_REMOVE_LOCATION_DESCRIPTION">
+        Cicerone {SENDER} has eliminated a location of the activity
+        you are associated through the described event. To know the list of the stages
+        valid displays the information of the event.
+    </string>
+    <string name="CICERONE_ADD_LOCATION_DESCRIPTION">
+        Cicerone {SENDER} has added a location of the activity to which
+        you are associated through the described event. To know the list of the stages
+        valid displays the information of the event.
+    </string>
+    <string name="GLOBETROTTER_MADE_FEEDBACK_DESCRIPTION">
+        Globetrotter {SENDER} has sent you a feedback for one of your tour.
+        To be redirected to the page of feedback, select the button at the bottom of the page.
+    </string>
+    <string name="CICERONE_DELETE_TOUR_DESCRIPTION">
+        Cicerone {SENDER} has decided to delete the tour and all its associated event.
+        This means that your subscription has been deleted.
+    </string>
+    <string name="notes_from_sender">Additional notes</string>
+    <string name="redirect_to_request_list">Manage request</string>
+    <string name="make_payment">Make payment</string>
+    <string name="redirect_to_subscription_page">See subscription</string>
+
+    <string name="event">Event</string>
+    <string name="edit_tour">Edit tour info ></string>
+    <string name="edit_location">Add/remove location ></string>
+    <string name="edit_event">Manage event and subscriptions ></string>
+    <string name="delete_tour">Delete tour</string>
+    <string name="renew_tour">Renew tour</string>
+
+    <string name="edit_tour_title">Edit tour</string>
+    <string name="tour_cannot_change_cost_for_event">
+        The tour cannot have a cost change because there are already events
+    </string>
+    <string name="delete_tour_title">Delete tour</string>
+    <string name="delete_tour_description">
+        Deleting an activity is an irreversible process. Doing so will delete all
+        information associated with it, including events, locations, requests and
+        subscriptions. Associated globetrotters will be notified of their deletion
+        from the events of the tour. However, if the business has one or more
+        events on payment, it will not be possible to delete the activity.
+        Are you sure you want to complete the cancellation?
+        To confirm click on the \'Delete tour\' button, to cancel go back.
+    </string>
+    <string name="there_is_a_buyer_in_tour">
+        It is not possible to delete the tour because it is subject to a fee
+        and there are globetrotters who have purchased it.
+    </string>
+    <string name="success_delete_tour">Tour deleted successfully</string>
+    <string name="error_delete_tour">Error in deleting tour. Try again!</string>
+    <string name="pending_requests">Pending requests</string>
+    <string name="no_pending_requests">No pending requests</string>
+    <string name="new_event">New event</string>
+    <string name="manage_events">Manage events</string>
+    <string name="expired_request_terms">Expired request terms</string>
+    <string name="event_start_and_end_date">Event start and end date</string>
+    <string name="event_start_and_end_date_description">
+        Warning! The start and end date
+        of the event are meant to be the dates
+        within which the new event related to it
+        must be done. Therefore, it must be in range
+    </string>
+    <string name="max_subscription">Maximum number of people participating</string>
+    <string name="add_language">Manage spoken languages</string>
+    <string name="requests">Requests</string>
+    <string name="subscriptions">Participants</string>
+    <string name="event_info">Event general info</string>
+    <string name="delete_event">Delete event</string>
+    <string name="edit_event_data">Edit event ></string>
+    <string name="request_group_dimension">From {G_USER}: request made in {DATE} for a group of {GROUP_DIM} person</string>
+    <string name="delete_event_description">
+        Deleting an event is an irreversible process. Doing so will delete all
+        information associated with it, including requests and registrations to it.
+        Associated globetrotters will be notified of their deletion
+        from the event. However, if the activity associated with the event is paid for
+        and there are simultaneously subscribers to it, it will not be possible to delete it.
+        Are you sure you want to complete the cancellation?
+        To confirm click on the \'Delete event\' button, to cancel go back.
+    </string>
+    <string name="there_is_a_buyer_in_event">
+        It is not possible to delete the event because it is subject to a fee
+        and there are globetrotters who have purchased it.
+    </string>
+    <string name="success_delete_event">Event deleted successfully</string>
+    <string name="error_delete_event">Error in deleting event. Try again!</string>
+    <string name="edit_event_title">Edit event</string>
+    <string name="event_start_and_end_date_description_edit">
+        Warning! The start and end date
+        of the event are meant to be the dates
+        within which the new event related to it
+        must be done. Therefore, a possible modification must be in range
+    </string>
+    <string name="empty_location_list">It must be at least a location for the tour</string>
+    <string name="request">Subscription request</string>
+    <string name="request_from">Request from:</string>
+    <string name="group_dimension_required">Places required from globetrotter</string>
+    <string name="sent_on">Sent on</string>
+    <string name="event_subscription_free_places">There are still {PLACES_REMAIN} places available for the event</string>
+    <string name="request_manage_description">
+        As the tour owner, you can decide whether to accept or reject the
+        globetrotter\'s request for that event. If you decide to reject the request,
+        it will no longer be shown to you and the globetrotter will be notified
+        of your choice. If you decide to accept the request, the globetrotter
+        will be added to the list of participants and you can view his profile
+        and change his registration to the event.
+    </string>
+    <string name="accept_request">Accept</string>
+    <string name="reject_request">Refuse</string>
+    <string name="success_accept_request">
+        The request is accepted correctly and from now the globetrotter will be subscribed to the event
+    </string>
+    <string name="success_reject_request">
+        The request is refused correctly and the globetrotter can\'t send another request from this event
+    </string>
+    <string name="event_subscription_free_places_not_enough">
+        You cannot accept this request because there aren\'t enough free places for the
+        whole globetrotter\'s group
+    </string>
+    <string name="cant_manage_request_already_did">
+        You cannot manage this request because you already did it or it is expired
+    </string>
+    <string name="subscription">Subscription</string>
+    <string name="globetrotter_info">Globetrotter info</string>
+    <string name="event_subscription_info">Event subscription info</string>
+    <string name="group_dimension_subscribed">Group dimension subscribed</string>
+    <string name="has_payed">Event\'s payment status</string>
+    <string name="delete_subscription">Delete subscription</string>
+    <string name="event_free_cost_description">The event is free</string>
+    <string name="globetrotter_has_not_payed">The globetrotter hasn\'t paid yet</string>
+    <string name="globetrotter_has_payed">The globetrotter has made his payment</string>
+    <string name="delete_subscription_cicerone_description">
+        Deleting a subscription is an irreversible process. Doing so will delete all
+        information associated with it. Associated globetrotter will be notified of its deletion
+        from the event. However, you must tell him a explanation of why you have deleted the
+        registration, using the form below. Are you sure you want to complete the cancellation?
+        To confirm click on the \'Delete subscription\' button, to cancel go back.
+    </string>
+    <string name="delete_subscription_globetrotter_description">
+        Deleting a subscription is an irreversible process. Doing so will delete all
+        information associated with it. Tour\'s owner cicerone will be notified of your quit
+        from the event. If you proceed, you won\'t be able to make another request for the
+        same event. Are you sure you want to complete the cancellation?
+        To confirm click on the \'Delete subscription\' button, to cancel go back.
+    </string>
+    <string name="delete_subscription_motivation_description">
+        Please, write a reason for the deleting of the subscription
+    </string>
+    <string name="no_reason">
+        Select here for inserting a reason
+    </string>
+    <string name="select_reason">
+        Select a reason
+    </string>
+    <string name="reason_not_payed">
+        You have not paid the subscription\'s fee within expiration date (within three days of
+        the start of the event. Therefore, your subscription was deleted.
+    </string>
+    <string name="must_insert_a_reason">You must insert a reason for the subscription delete</string>
+    <string name="success_delete_subscription">Subscription deleted successfully</string>
+    <string name="event_subscribed_title">Event subscribed</string>
+    <string name="you_have_payed">You have already paid the event\'s fee</string>
+    <string name="you_have_not_payed">
+        You have not paid the event\'s fee yet.
+        You must make the payment within the day {DATE}.
+    </string>
+    <string name="my_feedback">Your feedback</string>
+    <string name="my_feedback_title">Manage feedback</string>
+    <string name="insert_new_feedback">
+        You have not posted a review for the tour related to the event yet.
+        Therefore, you can add it by entering a rate from 1 to 5 and a short description
+        that expresses your opinions on the event you attended. Help the cicerone,
+        your opinion is important!
+    </string>
+    <string name="edit_feedback">
+        You have already posted a feedback in the past, probably for another event
+        you subscribed. However, you can edit the tour review again if you think it is
+        outdated or no longer reflects your opinion. The previous review will be overwritten.
+    </string>
+    <string name="feedback_rating">Tour rating</string>
+    <string name="feedback_description">Feedback description</string>
+    <string name="success_manage_feedback">Feedback managed successfully</string>
+    <string name="make_payment_description">
+        You are about to be redirected to the payment section of the subscription.
+        Analyse the payment details for one last time and proceed.
+    </string>
+    <string name="total_cost">Amount</string>
+    <string name="delete_account_description">DELETE_ACCOUNT_DESCRIPTION</string>
+    <string name="delete_are_you_sure">
+        Are you sure you want to delete your account? Choosing "Proceed" you can\'t retrieve it anymore.
+    </string>
+    <string name="proceed">Proceed</string>
+    <string name="success_delete_account">Account deleted successfully</string>
+    <string name="error_delete_account">Error in deleting account. Try again!</string>
+    <string name="account_have_tour_payment">
+        It is not possible to delete the account because you have tours that are subject to a fee
+        and there are globetrotters who have purchased it. Try again at the end of the tour.
+    </string>
+    <string name="payment_successfully">Payment made successfully</string>
+
+    <string name="policy_terms">
+        <![CDATA[
+        <h1>Privacy Policy</h1>
+        <p>Winotech operates the Cicerone mobile application for Android.</p>
+        <p>This page informs you of our policies regarding the collection, use, and disclosure of personal
+        data when you use our Service and the choices you have associated with that data.</p>
+        <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection
+        and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy,
+        terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+        <h2>Information Collection And Use</h2>
+        <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+        <h3>Types of Data Collected</h3>
+        <h4>Personal Data</h4>
+        <p>While using our Service, we may ask you to provide us with certain personally identifiable information that can
+        be used to contact or identify you ("Personal Data"). Personally identifiable information may
+        include, but is not limited to:</p>
+        Email address, First name and last name, Address, State, Province, ZIP/Postal code, City, Cookies and Usage Data.
+        <h4>Usage Data</h4>
+        <p>When you access the Service by or through a mobile device, we may collect certain information automatically,
+        including, but not limited to, the type of mobile device you use, your mobile device unique ID,
+        the IP address of your mobile device, your mobile operating system, the type of mobile Internet
+        browser you use, unique device identifiers and other diagnostic data ("Usage Data").</p>
+        <h4>Tracking & Cookies Data</h4>
+        <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+        <p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+        <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+        <p>Examples of Cookies we use:</p>
+        <p>- 	<strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</p>
+        <p>- 	<strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</p>
+        <p>- 	<strong>Security Cookies.</strong> We use Security Cookies for security purposes.</p>
+        <h2>Use of Data</h2>
+        <p>Cicerone uses the collected data for various purposes:</p>
+        <p>- 	To provide and maintain the Service</p>
+        <p>- 	To notify you about changes to our Service</p>
+        <p>- 	To allow you to participate in interactive features of our Service when you choose to do so</p>
+        <p>- 	To provide customer care and support</p>
+        <p>- 	To provide analysis or valuable information so that we can improve the Service</p>
+        <p>- 	To monitor the usage of the Service</p>
+        <p>- 	To detect, prevent and address technical issues</p>
+        <h2>Transfer Of Data</h2>
+        <p>Your information, including Personal Data, may be transferred to — and maintained on — computers
+        located outside of your state, province, country or other governmental jurisdiction where the data protection
+        laws may differ than those from your jurisdiction.</p>
+        <p>If you are located outside Italy and choose to provide information to us, please note that we transfer the data,
+        including Personal Data, to Italy and process it there.</p>
+        <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement
+        to that transfer.</p>
+        <p>Cicerone will take all steps reasonably necessary to ensure that your data is treated securely and
+        in accordance with this Privacy Policy and no transfer of your Personal Data will take place to
+        an organization or a country unless there are adequate controls in place including the security of
+        your data and other personal information.</p>
+        <h2>Disclosure Of Data</h2>
+        <h3>Legal Requirements</h3>
+        <p>Cicerone may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+        <p>- 	To comply with a legal obligation</p>
+        <p>- 	To protect and defend the rights or property of Cicerone</p>
+        <p>- 	To prevent or investigate possible wrongdoing in connection with the Service</p>
+        <p>- 	To protect the personal safety of users of the Service or the public</p>
+        <p>- 	To protect against legal liability</p>
+        <h1>Terms of use</h1>
+        <h2>Refund Policy</h2>
+        <p>If a user Cicerone deleted one of his tours that required a certain amount of money to partecipate,
+        in which one or more Globetrotter had signed up for, all of the partecipants to that tour,
+        after they have been notified, will be entitled for a complete refund of the sum payed.
+        In the event that a Globetrotter wants to delete a reservation to a tour that he already paid for,
+        the refund will not be done by the app. It will be on the Globetrotter in that case,
+        to contact the Cicerone to obtain possible refund.
+        <h2>Cancellazione account</h2>
+        <p> - <strong>User Globetrotter:</strong>	    If a Globetrotter deletes his account, his data will
+        be directly erased from the system and the app will not have any responsibility for possible
+        activities to which the user has registered.</p>
+        <p> - <strong>Utente Cicerone:</strong>	    If a Cicerone decides to delete his account, he must
+        wait 30 days from the last paid activity he started to enable his data to be erased from
+        the system. In the event that the account, at the time of cancellation,  has still paid activities
+        in progress or in the event that 30 days since his last paid activity have not passed, the account can't be deleted.</p>
+        <h2>Changes To This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting
+        the new Privacy Policy on this page.</p>
+        <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming
+        effective and update the "effective date" at the top of this Privacy Policy.</p>
+        <p>You are advised to review this Privacy Policy periodically for any changes.
+        Changes to this Privacy Policy are effective when they are posted on this page.</p>
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        - 	By email: cicerone@gmail.com]]>
+    </string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_get_location">Map</string>
+
+
+</resources>

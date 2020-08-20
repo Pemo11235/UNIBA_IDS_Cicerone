@@ -1,0 +1,578 @@
+<resources>
+    <string name="app_name">Cicerone</string>
+    <string name="username">Username</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="first_name">Nome</string>
+    <string name="last_name">Cognome</string>
+    <string name="phone_number">Numero di telefono</string>
+    <string name="photo">Foto</string>
+    <string name="biography">Biografia</string>
+    <string name="role">Ruolo</string>
+    <string name="first_last_name">Nome e cognome</string>
+
+    <string name="cicerone_role_cap">Cicerone</string>
+    <string name="globetrotter_role_cap">Globetrotter</string>
+
+    <string name="login">Accedi a Cicerone</string>
+    <string name="sign_in">Login</string>
+    <string name="register">Registrati su Cicerone</string>
+    <string name="sign_up">Registrati</string>
+    <string name="empty_email">E-mail non inserita o errata</string>
+    <string name="empty_password">Password non inserita</string>
+    <string name="user_found">Accesso riuscito! Benvenuto su Cicerone!</string>
+    <string name="user_not_found">Username o password errata! Riprovare prego</string>
+    <string name="need_help">Recupera password</string>
+    <string name="password_recovery_dialog">
+        Hai dimenticato la password? Niente paura!\n Inserisci la tua email, provvederemo ad
+        inviarti una nuova password al tuo indirizzo.\n Ricorda di cambiarla dopo aver effettuato l\'accesso.
+    </string>
+    <string name="send_mail">Invia e-mail</string>
+    <string name="sending_mail">Invio e-mail in corso...</string>
+    <string name="recovery_email_object">Recupero password - Cicerone</string>
+    <string name="recovery_email_body">
+        Salve,\ndopo la richiesta da Lei effettuata, Le abbiamo inviato una nuova password per poter
+        accedere nuovamente al servizio offerto da Cicerone. Ricordi di cambiare la password non
+        appena accedi su Cicerone.
+    </string>
+    <string name="recovery_email_password">La nuova password è </string>
+    <string name="recovery_email_conclusion">\nSi goda Cicerone!</string>
+
+    <string name="logging_in">Accesso in corso...</string>
+    <string name="signing_in">Registrazione in corso...</string>
+    <string name="success_sign_in">Sei stato registrato su Cicerone! Effettua il login per iniziare ad usare il servizio.</string>
+    <string name="oops_json">OOPS! Qualcosa è andato storto durante il login. Riprovare prego!</string>
+    <string name="empty_fields">Alcuni campi sono vuoti! Completare prima di proseguire</string>
+
+    <string name="register_compiling_field">Inserisci i tuoi dati</string>
+    <string name="are_you_role">Sei un cicerone o un globetrotter?</string>
+    <string name="are_you_signed">Sei gia iscritto? Accedi!</string>
+
+    <string name="about_me">Informazioni</string>
+    <string name="name">Nome</string>
+    <string name="spoken_languages">Lingue parlate</string>
+    <string name="my_account">Il mio profilo</string>
+    <string name="no_information">Nessuna informazione</string>
+    <string name="acquiring_data">Acquisizione dati...</string>
+    <string name="saving_data">Salvataggio dati...</string>
+    <string name="success_save_data">Dati salvati con successo</string>
+    <string name="error_save_data">Errore nel salvataggio dei dati</string>
+    <string name="tour_data_before_event_data">C\'è almeno un evento la cui data è successiva a quella inserita</string>
+
+    <string name="edit_profile">Modifica profilo</string>
+    <string name="logout">Logout</string>
+    <string name="change_photo">Change profile photo</string>
+    <string name="edit_spoken_languages">Aggiungi/rimuovi lingue parlate</string>
+    <string name="edit_password">Modifica password</string>
+    <string name="submit">Conferma</string>
+    <string name="success_edit">Profilo modificato con successo</string>
+    <string name="empty_name">Nome non inserito</string>
+    <string name="empty_phone">Numero di telefono non inserito o errato</string>
+
+    <string name="logout_message">Sei sicuro di voler uscire da Cicerone?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <string name="settings">Impostazioni</string>
+    <string name="terms_service">Termini d\'uso</string>
+    <string name="delete_account">Elimina account</string>
+
+    <string name="language">Seleziona lingua</string>
+    <string name="select_language_message">
+        Seleziona una delle seguenti lingue.\nUna volta selezionata la lingua che desideri,
+        l\'applicazione tradurra\' il testo e ricarichera\' il contenuto.
+    </string>
+    <string name="change_language_message">Cambio lingua in</string>
+    <string name="en">Inglese</string>
+    <string name="it">Italiano</string>
+
+    <string name="insert_old_password">Inserisci la vecchia password</string>
+    <string name="insert_new_password">Inserisci la nuova password</string>
+    <string name="reinsert_new_password">Reinserisci la nuova password</string>
+    <string name="wrong_password">Password precedente errata</string>
+    <string name="new_password_different">Le nuove password inserita e reinserita non sono uguali</string>
+    <string name="new_password_no_change">La password nuova e quella vecchia sono uguali</string>
+    <string name="success_change_password">Password modificata con successo</string>
+    <string name="success_change_spoken_languages">Lingue parlate modificate con successo</string>
+
+    <string name="my_tours">Le mie attività</string>
+    <string name="new_tour">Nuova attività</string>
+    <string name="valid_tours">In corso</string>
+    <string name="past_tours">Passate</string>
+
+    <string name="tour_name">Nome dell\'attività</string>
+    <string name="tour_description">Descrizione</string>
+    <string name="tour_cost">Costo</string>
+    <string name="tour_start_and_end_date">Data di inizio e di fine dell\'attivita\'</string>
+    <string name="tour_start_and_end_date_description">
+        Attenzione! la data di inizio e di fine
+        dell\'attivita\' sono intesi come le date
+        entro le quali uno o piu\' eventi legati ad essa
+        possono essere effettuati.
+    </string>
+    <string name="tour_locations">Tappe</string>
+    <string name="add_location">Aggiungi tappa</string>
+    <string name="no_location">Nessuna tappa</string>
+    <string name="no_date">Nessuna data</string>
+    <string name="reset">Resetta</string>
+    <string name="selected_location">Tappe selezionate</string>
+    <string name="wrong_date_after">La data di inizio è successiva alla data di fine</string>
+    <string name="wrong_date_after_tour">La data di inizio è successiva alla data di fine del tour</string>
+    <string name="wrong_date_before_now">Una o entrambe le date sono precedenti o uguali alla data odierna </string>
+    <string name="wrong_end_date_before_now">La data di fine è precedente alla data odierna</string>
+    <string name="wrong_date_before_n_days">La data di inizio e di fine non possono essere precedenti alla data</string>
+    <string name="acquiring_tour_data">Caricamento dati tour...</string>
+    <string name="no_tour_associated">Non hai attività associate</string>
+    <string name="start_inserting_tour">Inizia subito con l\'inserire una nuova attività!</string>
+    <string name="start_registering_tour">Inizia subito con il registrarti ad una nuova attività!</string>
+
+
+    <string name="tour_search">Ricerca attività</string>
+    <string name="no_tour_find">Nessuna attività trovata</string>
+    <string name="better_search_keywords">Riprova con parole chiavi più adatte</string>
+    <string name="tour_search_content_cicerone">Cerca per contenuto o cicerone</string>
+
+    <string name="notifications">Notifiche</string>
+    <string name="notification">Notifica</string>
+    <string name="no_notifications_find">Nessuna notifica trovata</string>
+    <string name="notifications_from">Notifica da:</string>
+    <string name="notifications_object">Oggetto:</string>
+    <string name="notifications_tour">Tour di appartenenza</string>
+    <string name="notifications_created_on">Inviato in data</string>
+    <string name="notification_start_end_date">Data di inizio e di fine dell\'evento</string>
+    <string name="event_description">Descrizione dell\'evento</string>
+    <string name="notification_description">Messaggio della notifica</string>
+
+    <string name="tour">Attività</string>
+    <string name="tour_info">Info generali dell\'attività</string>
+    <string name="tour_languages">Lingue parlate nell\'attività (dai suoi eventi)</string>
+
+    <string name="tour_events">Eventi dell\'attività</string>
+    <string name="tour_no_events">Non ci sono eventi per questo tour</string>
+
+    <string name="chooice_event">Scegli un evento</string>
+    <string name="chooice_event_description">
+        Seleziona un evento dalla lista seguente. Selezionandolo, potrai visualizzare
+        le sue informazioni e potrai decidere successivamente se richiedere
+        l\'iscrizione al suo cicerone.
+    </string>
+    <string name="not_available_event">Non disponibile</string>
+    <string name="expired_event">Scaduto</string>
+    <string name="not_available_event_description">L\'evento non è disponibile per mancanza di posti</string>
+    <string name="expired_event_description">L\'evento non è disponibile poiché scaduto</string>
+    <string name="already_subscribed_event">Evento già iscritto</string>
+    <string name="already_requested_event">Evento già richiesto</string>
+    <string name="already_subscribed_event_description">Sei già iscritto a questo evento</string>
+    <string name="already_requested_event_description">Hai gia richiesto questo evento</string>
+    <string name="already_requested_denied_event_description">
+        Hai già richiesto questo evento ma il cicerone lo ha rifiutato.
+        Non puoi effettuare nuovamente una richiesta per tale evento.
+    </string>
+    <string name="subs_remaining_event">posti rimanenti</string>
+    <string name="selected_event">Evento selezionato</string>
+    <string name="selected_event_data">Dati sull\'evento selezionato</string>
+    <string name="event_spoken_languages">Lingue parlate nell\'evento</string>
+    <string name="event_additional_description">Descrizione aggiuntiva dell\'evento</string>
+    <string name="tour_cost_per_person">Costo a persona</string>
+    <string name="event_group_dimension">Dimensione del tuo gruppo</string>
+    <string name="event_group_dimension_description">
+        Inserisci la dimensione del tuo gruppo. Per il cicerone,
+        è importante conoscere il numero di persone che richiedono
+        di partecipare a questo evento. Nota che, se il gruppo è
+        ritenuto troppo grande oppure non ci sono sufficienti posti
+        liberi, la richiesta potrebbe essere rifiutata dal cicerone.
+    </string>
+    <string name="selected_event_data_description">
+        Nella seguente sezione vengono mostrate tutte le informazioni inerenti all\'evento
+        selezionato. Inoltre, è incluso l\'inserimento della dimensione del gruppo
+        che richiede di partecipare allo stesso evento.\n
+        Se l\'evento ha un prezzo (inteso come costo a persona) verrà chiesto,
+        dopo l\'accettazione della richiesta, di effettuare il pagamento, eseguibile entro
+        il termine massimo di tre giorni dall\'inizio dell\'evento. Se il pagamento
+        non viene eseguito e si giunge alla scadenza, il cicerone ha il diritto di
+        annullare l\'iscrizione. Il termine massimo di pagamento, tuttavia, può subire
+        variazioni a discrezione del cicerone.
+    </string>
+    <string name="send_request">Invia richiesta</string>
+    <string name="negative_group_dimension">La dimensione del gruppo non può essere begativa o pari a zero</string>
+    <string name="group_dimension_excedeed_max_subscribed">La dimensione del gruppo è maggiore del numero massimo di iscritti</string>
+    <string name="group_dimension_sum_excedeed_max_subscribed">La dimensione del gruppo inserita necessita
+        di più posti di quanto non siano disponibili</string>
+    <string name="oops_request">Oops! Qualcosa è andato storto con la tua richiesta. Riprovare prego!</string>
+    <string name="request_send_successfully">Richiesta inviata correttamente!</string>
+    <string name="request_send_successfully_description">
+        La tua richiesta di iscrizione è stata inoltrata correttamente al cicerone. Riceverai una notifica
+        con la risposta del cicerone alla richiesta di iscrizione.
+    </string>
+    <string name="come_back_to_search">Torna alla ricerca</string>
+
+    <string name="cicerone">Cicerone</string>
+    <string name="feedbacks">Recensioni degli utenti</string>
+    <string name="best_feedback"><![CDATA[<strong>Miglior Recensione</strong><br><i>]]></string>
+    <string name="worst_feedback"><![CDATA[<br><br><strong>Peggior Recensione</strong><br><i>]]></string>
+    <string name="no_feedback">Nessuna recensione disponibile</string>
+    <string name="from_feedback"><![CDATA[</i>scrive:<br>]]></string>
+    <string name="read_all_feedbacks"><![CDATA[<br><br><strong>Leggi tutte le recensioni ></strong><br>]]></string>
+    <string name="subscribe">Iscriviti</string>
+    <string name="no_spoken_languages">Nessuna informazione sulle lingue parlate</string>
+
+    <string name="GLOBETROTTER_MADE_PAYMENT">Pagamento eseguito</string>
+    <string name="GLOBETROTTER_MADE_REQUEST">Richiesta di iscrizione</string>
+    <string name="CICERONE_ACCEPT_REQUEST">Accettazione richiesta di iscrizione</string>
+    <string name="CICERONE_REFUSE_REQUEST">Rifiuto richiesta di iscrizione</string>
+    <string name="CICERONE_REMOVED_GLOBETROTTER_FROM_EVENT">Rimozione da evento</string>
+    <string name="GLOBETROTTER_RESIGN_EVENT">Abbandono evento</string>
+    <string name="CICERONE_DELETE_EVENT">Cancellazione evento</string>
+    <string name="CICERONE_EDIT_EVENT_DATE">Modifica data evento</string>
+    <string name="CICERONE_REMOVE_LOCATION">Rimozione tappa</string>
+    <string name="CICERONE_ADD_LOCATION">Aggiunta tappa</string>
+    <string name="GLOBETROTTER_MADE_FEEDBACK">Nuova recensione</string>
+    <string name="CICERONE_DELETE_TOUR">Cancellazione attività</string>
+    <string name="GLOBETROTTER_MADE_PAYMENT_DESCRIPTION">
+        Il globetrotter {SENDER} ha effettuato correttamente il pagamento.
+        Da questo momento, non potrà essere rimosso dall\'attività a meno
+        di situazioni gravi.
+    </string>
+    <string name="GLOBETROTTER_MADE_REQUEST_DESCRIPTION">
+        Il globetrotter {SENDER} ti ha inviato una richiesta di iscrizione
+        all\'evento descritto. Per essere reindirizzato alla pagina delle richieste ed
+        inviargli una risposta, seleziona il bottone in fondo alla pagina.
+    </string>
+    <string name="CICERONE_ACCEPT_REQUEST_DESCRIPTION">
+        Il cicerone {SENDER} ha accettato la tua richiesta di iscrizione
+        all\'evento descritto. Per effettuare il pagamento seleziona il bottone
+        in fondo alla pagina. Ricorda che bisogna effettuare il pagamento
+        entro tre giorni dall\'inizio dell\'evento, pena l\'esclusione dallo stesso.
+    </string>
+    <string name="CICERONE_REFUSE_REQUEST_DESCRIPTION">
+        Il cicerone {SENDER} ha rifiutato la tua richiesta di iscrizione
+        all\'evento descritto. Ricorda che puoi decidere di inviare una
+        nuova richiesta di iscrizione per un altro evento della stessa attività.
+    </string>
+    <string name="CICERONE_REMOVED_GLOBETROTTER_FROM_EVENT_DESCRIPTION">
+        Il cicerone {SENDER} ha deciso di rimuoverti dall\'evento.
+        Per eventuali richieste di informazioni, contattalo all\'e-mail illustrata sotto.
+    </string>
+    <string name="GLOBETROTTER_RESIGN_EVENT_DESCRIPTION">
+        Il globetrotter {SENDER} ha deciso di rinunciare all\'evento.
+    </string>
+    <string name="CICERONE_DELETE_EVENT_DESCRIPTION">
+        Il cicerone {SENDER} ha deciso di eliminare l\'evento descritto.
+        Ricorda che puoi decidere di inviare una nuova richiesta di iscrizione
+        per un altro evento della stessa attività.
+    </string>
+    <string name="CICERONE_EDIT_EVENT_DATE_DESCRIPTION">
+        Il cicerone {SENDER} ha modificato la data dell\'evento al quale
+        sei associato.
+    </string>
+    <string name="CICERONE_REMOVE_LOCATION_DESCRIPTION">
+        Il cicerone {SENDER} ha eliminato una tappa dell\'attività alla quale
+        sei associato tramite l\'evento descritto. Per conoscere la lista delle tappe
+        valide visualizza le informazioni dell\'evento.
+    </string>
+    <string name="CICERONE_ADD_LOCATION_DESCRIPTION">
+        Il cicerone {SENDER} ha aggiunto una tappa dell\'attività alla quale
+        sei associato tramite l\'evento descritto. Per conoscere la lista delle tappe
+        valide visualizza le informazioni dell\'evento.
+    </string>
+    <string name="GLOBETROTTER_MADE_FEEDBACK_DESCRIPTION">
+        Il globetrotter {SENDER} ha aggiunto una recensione per uno delle tue attività.
+        Per essere reindirizzato alla pagina delle recensioni, seleziona il bottone
+        in fondo alla pagina.
+    </string>
+    <string name="CICERONE_DELETE_TOUR_DESCRIPTION">
+        Il cicerone {SENDER} ha deciso di eliminare l\'attività e gli eventi ad esso associati.
+        Ciò vuol dire che le tue sottoscrizioni a tali eventi sono stati eliminati.
+    </string>
+    <string name="notes_from_sender">Note aggiuntive</string>
+    <string name="redirect_to_request_list">Gestisci richiesta</string>
+    <string name="make_payment">Effettua pagamento</string>
+    <string name="redirect_to_subscription_page">Vedi iscrizione</string>
+
+    <string name="event">Evento</string>
+    <string name="edit_tour">Modifica informazioni attività ></string>
+    <string name="edit_location">Aggiungi/rimuovi tappa ></string>
+    <string name="edit_event">Gestisci eventi e iscritti ></string>
+    <string name="delete_tour">Cancella attività</string>
+    <string name="renew_tour">Rinnova attività</string>
+
+    <string name="edit_tour_title">Modifica attività</string>
+    <string name="tour_cannot_change_cost_for_event">
+        L\'attività non può avere un cambio di costo poiché esistono già eventi
+    </string>
+    <string name="delete_tour_title">Cancellazione attività</string>
+    <string name="delete_tour_description">
+        La cancellazione di una attività è un processo irreversibile. Facendo ciò,
+        verranno cancellate tutte le informazioni associate ad esso, tra cui gli
+        eventi, le tappe, le richieste e le iscrizioni ad esso. I globetrotter
+        associati verranno notificati della loro cancellazione dagli eventi
+        dell\'attività. Tuttavia, se l\'attività è a pagamento e ci sono degli iscritti,
+        non sarà possibile cancellare l\'attività. Sei sicuro di voler
+        completare la cancellazione? Per confermare clicca sul bottone \'Cancella attività\'
+        altrimenti torna indietro.
+    </string>
+    <string name="there_is_a_buyer_in_tour">
+        Non è possibile eliminare l\'attività poiché essa è a pagamento e sono presenti dei globetrotter
+        che l\'hanno acquistata.
+    </string>
+    <string name="success_delete_tour">Attività cancellata con successo</string>
+    <string name="error_delete_tour">Errore durante la cancellazione del tour. Riprovare prego!</string>
+    <string name="pending_requests">Richieste pendenti</string>
+    <string name="no_pending_requests">Nessuna richiesta pendente</string>
+    <string name="new_event">Nuovo evento</string>
+    <string name="manage_events">Gestione eventi</string>
+    <string name="expired_request_terms">Termini risposta richeste scaduto</string>
+    <string name="event_start_and_end_date">Data di inizio e di fine dell\'evento</string>
+    <string name="event_start_and_end_date_description">
+        Attenzione! la data di inizio e di fine
+        dell\'evento sono intesi come le date
+        entro le quali il nuovo evento deve essere effettuato.
+        Pertanto, esso deve trovarsi nel range
+    </string>
+    <string name="max_subscription">Numero massimo di persone partecipanti</string>
+    <string name="add_language">Gestisci lingue parlate</string>
+    <string name="requests">Richieste</string>
+    <string name="subscriptions">Partecipanti</string>
+    <string name="event_info">Info generali dell\'evento</string>
+    <string name="delete_event">Cancella evento</string>
+    <string name="edit_event_data">Modifica evento ></string>
+    <string name="request_group_dimension">Da {G_USER}: richiesto in data {DATE} per un gruppo di {GROUP_DIM} persone</string>
+    <string name="delete_event_description">
+        La cancellazione di un evento è un processo irreversibile. Facendo ciò,
+        verranno cancellate tutte le informazioni associate ad esso, tra cui le
+        richieste e le iscrizioni ad esso. I globetrotter associati verranno notificati
+        della loro cancellazione dal suddetto evento. Tuttavia, se l\'attività associata
+        all\'evento è a pagamento e contemporaneamente esistono degli iscritti ad esso, non sarà
+        possibile cancellarlo. Sei sicuro di voler completare la cancellazione?
+        Per confermare clicca sul bottone \'Cancella evento\' altrimenti torna indietro.
+    </string>
+    <string name="there_is_a_buyer_in_event">
+        Non è possibile eliminare l\'evento poiché esso è a pagamento e sono presenti dei globetrotter
+        che l\'hanno acquistato.
+    </string>
+    <string name="success_delete_event">Evento cancellato con successo</string>
+    <string name="error_delete_event">Errore durante la cancellazione dell\'evento. Riprovare prego!</string>
+    <string name="edit_event_title">Modifica event</string>
+    <string name="event_start_and_end_date_description_edit">
+        Attenzione! la data di inizio e di fine
+        dell\'evento sono intesi come le date
+        entro le quali il nuovo evento deve essere effettuato.
+        Pertanto, una possibile modifica deve trovarsi nel range
+    </string>
+    <string name="empty_location_list">Deve esserci almeno una tappa per il tour</string>
+    <string name="request">Richiesta iscrizione</string>
+    <string name="request_from">Richiesta da:</string>
+    <string name="group_dimension_required">Numero di posti richiesti dal globetrotter</string>
+    <string name="sent_on">Inviato il</string>
+    <string name="event_subscription_free_places">Ci sono ancora {PLACES_REMAIN} posti disponibili per l\'evento</string>
+    <string name="request_manage_description">
+        Come titolare del tour, puoi decidere se accettare o rifiutare la
+        richiesta inoltrata dal globetrotter per tale evento. Qualora decidessi di
+        rifiutare la richiesta, essa non ti sarà più mostrata ed al globetrotter
+        arriverà la notifica inerente alla tua scelta. Se, invece, decidi di accettare
+        la richiesta, il globetrotter sarà aggiunto alla lista dei partecipanti e
+        potrai visualizzare il suo profilo e modificare la sua iscrizione all\'evento
+    </string>
+    <string name="accept_request">Accetta</string>
+    <string name="reject_request">Rifiuta</string>
+    <string name="success_accept_request">
+        La richiesta è stata accettata correttamente e da ora il globetrotter sarà iscritto all\'evento
+    </string>
+    <string name="success_reject_request">
+         La richiesta è stata rifiutata correttamente e il globetrotter non potrà inviare una nuova richiesta per questo evento
+    </string>
+    <string name="event_subscription_free_places_not_enough">
+        Non è possibile accettare questa richiesta perché non ci sono abbastanza
+        posti disponibili per tutti i componenti del gruppo del globetrotter
+    </string>
+    <string name="cant_manage_request_already_did">
+        Non puoi più gestire questa richiesta perché lo hai già fatto in passato oppure è scaduta
+    </string>
+    <string name="subscription">Iscrizione</string>
+    <string name="globetrotter_info">Info sul globetrotter</string>
+    <string name="event_subscription_info">Info sull\'iscrizione</string>
+    <string name="group_dimension_subscribed">Numero di persone iscritte</string>
+    <string name="has_payed">Stato del pagamento all\'evento</string>
+    <string name="delete_subscription">Annulla iscrizione</string>
+    <string name="event_free_cost_description">L\'evento è gratuito</string>
+    <string name="globetrotter_has_not_payed">Il globetrotter non ha ancora pagato</string>
+    <string name="globetrotter_has_payed">Il globetrotter ha effettuato il pagamento</string>
+    <string name="delete_subscription_cicerone_description">
+        La cancellazione di un\'iscrizione è un processo irreversibile. Facendo ciò,
+        verranno cancellate tutte le informazioni associate ad esso.
+        Il globetrotter associato verrà notificato della sua cancellazione dal suddetto evento.
+        Tuttavia, dovrai fornirgli una spiegazione del motivo per il quale hai eliminato
+        la sua iscrizione, utilizzando il form qui sotto.
+        Sei sicuro di voler completare la cancellazione? Per confermare clicca sul
+        bottone \'Annulla iscrizione\' altrimenti torna indietro.
+    </string>
+    <string name="delete_subscription_globetrotter_description">
+        La cancellazione di un\'iscrizione è un processo irreversibile. Facendo ciò,
+        verranno cancellate tutte le informazioni associate ad esso.
+        Il globetrotter proprietario dell\' attività verrà notificato della tua cancellazione
+        dal suddetto evento. Se decidi di proseguire, non sarai più in grado di
+        effettuare una nuova richiesta per lo stesso evento.
+        Sei sicuro di voler completare la cancellazione? Per confermare clicca sul
+        bottone \'Annulla iscrizione\' altrimenti torna indietro.
+    </string>
+    <string name="delete_subscription_motivation_description">
+        Per favore, descrivi una motivazione per la cancellazione dell\'iscrizione
+    </string>
+    <string name="no_reason">
+        Seleziona qui per inserire una motivazione
+    </string>
+    <string name="select_reason">
+        Seleziona una motivazione
+    </string>
+    <string name="reason_not_payed">
+        Non hai pagato la quota di iscrizione entro la data di scadenza (ovvero entro tre giorni
+        dall\'inizio dell\'evento. Di conseguenza, la tua iscrizione è stata annullata.
+    </string>
+    <string name="must_insert_a_reason">Devi inserire una motivazione per la cancellazione dell\'iscrizione</string>
+    <string name="success_delete_subscription">Iscrizione annullata con successo</string>
+    <string name="event_subscribed_title">Evento associato</string>
+    <string name="you_have_payed">Hai già effettuato il pagamento del costo dell\'evento</string>
+    <string name="you_have_not_payed">
+        Non hai ancora effettuato il pagamento del costo dell\'evento.
+        Devi effettuare il pagamento entro il giorno {DATE}.
+    </string>
+    <string name="insert_new_feedback">
+        Non hai ancora inserito una recensione per l\'attività collegata all\'evento.
+        Pertanto, puoi aggiungerla inserendo un voto da 1 a 5 ed una breve descrizione
+        che esprima le tue riflessioni sull\'evento a cui hai partecipato. Aiuta il cicerone,
+        la tua opinione è importante!
+    </string>
+    <string name="edit_feedback">
+        Hai già inserito una recensione in passato, probabilmente per un altro evento
+        al quale hai partecipato. Tuttavia, è possibile modificare nuovamente
+        la recensione sull\'attività se ritieni che la stessa sia obsoleta o
+        che non rispecchi più l\'opinione che hai. La recensione precedente verrà sovrascritta.
+    </string>
+    <string name="feedback_rating">Punteggio dell\'attività</string>
+    <string name="feedback_description">Description della recensione</string>
+    <string name="success_manage_feedback">Recensione modificata con successo</string>
+    <string name="my_feedback">La tua recensione</string>
+    <string name="my_feedback_title">Gestione recensione</string>
+    <string name="make_payment_description">
+        Stai per essere reindirizzato alla sezione di pagamento dell\'iscrizione.
+        Ispeziona per un\'ultima volta i dati del pagamento e procedi.
+    </string>
+    <string name="total_cost">Costo totale</string>
+    <string name="delete_account_description">DELETE_ACCOUNT_DESCRIPTION</string>
+    <string name="delete_are_you_sure">
+        Sei sicuro di voler cancellare il tuo account? Scegliendo "Procedi" non potrai più recuperarlo.
+    </string>
+    <string name="proceed">Procedi</string>
+    <string name="success_delete_account">Account cancellato con successo</string>
+    <string name="error_delete_account">Errore durante la cancellazione dell\'account. Riprovare prego!</string>
+    <string name="account_have_tour_payment">
+        Non è possibile eliminare l\'account poiché possiedi delle attività a pagamento e sono presenti dei globetrotter
+        che l\'hanno acquistato. Riprovare al termine dell\'attività.
+    </string>
+    <string name="payment_successfully">Pagamento effettuato con successo</string>
+
+
+    <string name="policy_terms">
+        <![CDATA[<h1>Informativa sulla Privacy e Termini d\'uso</h1>
+        <p>Winotech gestisce "Cicerone" questa applicazione per dispositivi mobili Android.</p>
+        <p>Questa pagina vi informa delle nostre politiche riguardanti la raccolta, l\'uso e la
+        divulgazione dei dati personali quando usate il nostro Servizio e le scelte che avete associato a quei dati.</p>
+        <p>Utilizziamo i vostri dati per fornire e migliorare il Servizio. Utilizzando il Servizio,
+        accettate la raccolta e l\'utilizzo delle informazioni in conformità con questa informativa.
+        Se non diversamente definito nella presente Informativa sulla privacy, i termini utilizzati nella presente
+        Informativa hanno la stessa valenza dei nostri Termini e condizioni.</p>
+        <h2>Raccolta e uso delle informazioni</h2>
+        <p>Raccogliamo diversi tipi di informazioni per vari scopi, per fornire e migliorare il nostro servizio.</p>
+        <h3>Tipologie di Dati raccolti</h3>
+        <h4>Dati personali</h4>
+        <p>Durante l\'utilizzo del nostro Servizio, potremmo chiedervi di fornirci alcune informazioni
+        di identificazione personale che possono essere utilizzate per contattarvi o identificarvi
+        ("Dati personali"). Le informazioni di identificazione personale possono includere, ma non sono limitate a:</p>
+        Indirizzo email, Nome e cognome, Indirizzo, stato, provincia, codice postale, città, Cookie e dati di utilizzo.
+        <h4>Dati di utilizzo</h4>
+        <p>Quando si accede al Servizio attraverso un dispositivo mobile, potremmo raccogliere automaticamente
+        alcune informazioni, inclusi, ma non solo, il tipo di dispositivo mobile che si utilizza,
+        l\'ID univoco del dispositivo mobile, l\'indirizzo IP del dispositivo mobile, il sistema
+        operativo mobile, il tipo di browser Internet mobile che utilizzate, identificatori di dispositivo univoci
+        e altri dati diagnostici ("Dati di utilizzo").</p>
+        <h4>Tracciamento dati dei cookie</h4>
+        <p>Utilizziamo cookie e tecnologie di tracciamento simili per tracciare l\'attività sul
+        nostro Servizio e conservare determinate informazioni.</p>
+        <p>I cookie sono file con una piccola quantità di dati che possono includere un
+        identificatore univoco anonimo. I cookie vengono inviati al vostro browser da un sito web
+        e memorizzati sul vostro dispositivo. Altre tecnologie di tracciamento utilizzate sono anche
+        beacon, tag e script per raccogliere e tenere traccia delle informazioni e per migliorare
+        e analizzare il nostro Servizio.</p>
+        <p>Potete chiedere al vostro browser di rifiutare tutti i cookie o di indicare quando viene
+        inviato un cookie. Tuttavia, se non si accettano i cookie, potrebbe non essere possibile
+        utilizzare alcune parti del nostro Servizio.</p>
+        <p>Esempi di cookie che utilizziamo:</p>
+        <p>- 	<strong>Cookie di sessione.</strong> Utilizziamo i cookie di sessione per gestire il nostro servizio.</p>
+        <p>- 	<strong>Cookie di preferenza.</strong> Utilizziamo i cookie di preferenza per ricordare
+        le vostre preferenze e varie impostazioni.</p>
+        <p>- 	<strong>Cookie di sicurezza.</strong> Utilizziamo i cookie di sicurezza per motivi di sicurezza.</p>
+        <h2>Uso dei dati</h2>
+        <p>Cicerone utilizza i dati raccolti per vari scopi:</p>
+        <p>- 	Per fornire e mantenere il nostro Servizio</p>
+        <p>- 	Per comunicare agli utenti variazioni apportate al servizio che offriamo</p>
+        <p>- 	Per permettere agli utenti di fruire, a propria discrezione, di funzioni interattive del nostro servizio</p>
+        <p>- 	Per fornire un servizio ai clienti</p>
+        <p>- 	Per raccogliere analisi o informazioni preziose in modo da poter migliorare il nostro Servizio</p>
+        <p>- 	Per monitorare l\'utilizzo del nostro Servizio</p>
+        <p>- 	Per rilevare, prevenire e affrontare problemi tecnici</p>
+        <h2>Trasferimento dei dati</h2>
+        <p>Le vostre informazioni, compresi i Dati personali, possono essere trasferite a - e mantenute su  -
+        computer situati al di fuori del vostro stato, provincia, nazione o altra giurisdizione governativa
+        dove le leggi sulla protezione dei dati possono essere diverse da quelle della vostra giurisdizione.</p>
+        <p>Se ci si trova al di fuori dell'Italia e si sceglie di fornire informazioni a noi,
+        si ricorda che trasferiamo i dati, compresi i dati personali, in Italia e li elaboriamo lì.</p>
+        <p>Il vostro consenso alla presente Informativa sulla privacy seguito dall'invio di tali
+        informazioni rappresenta il vostro consenso al trasferimento.</p>
+        <p>Cicerone adotterà tutte le misure ragionevolmente necessarie per garantire che i vostri dati
+        siano trattati in modo sicuro e in conformità con la presente Informativa sulla privacy
+        e nessun trasferimento dei vostri Dati Personali sarà effettuato a un'organizzazione
+        o a un paese a meno che non vi siano controlli adeguati dei vostri dati e altre informazioni personali.</p>
+        <h2>Divulgazione di dati</h2>
+        <h3>Prescrizioni di legge</h3>
+        <p>Cicerone può divulgare i vostri Dati personali in buona fede, ritenendo che tale azione sia necessaria per:</p>
+        <p>- 	Rispettare un obbligo legale</p>
+        <p>- 	Proteggere e difendere i diritti o la proprietà di Cicerone</p>
+        <p>- 	Prevenire o investigare possibili illeciti in relazione al Servizio</p>
+        <p>- 	Proteggere la sicurezza personale degli utenti del Servizio o del pubblico</p>
+        <p>- 	Proteggere contro la responsabilità legale</p>
+        <h1>Termini D'uso</h1>
+        <h2>Politiche di rimborso</h2>
+        <p>Al fine di garantire il rispetto degli impegni presi dal Cicerone, nel momento in cui un
+        utente ha effettuato un pagamento di una determinata attività, essa non potrà essere
+        eliminata dal suo proprietario.
+        Nel caso in cui un Globetrotter volesse cancellare una prenotazione fatta ad un tour
+        che ha già pagato, il rimborso non verrà effettuato direttamente dall'app stessa.
+        Sarà a carico del Globetrotter, in quel caso, contattare il Cicerone di quell'attività
+        per ricevere un eventuale rimborso.</p>
+        <h2>Cancellazione account</h2>
+    	<p> - <strong>Utente Globetrotter:</strong>		Se un Globetrotter effettua la cancellazione
+    	dell'account,i suoi dati verranno cancellati dal sistema e l'app non ha
+    	responsabilità su eventuali attività a cui l'utente si è iscritto in precedenza. </p>
+    	<p> - <strong>Utente Cicerone:</strong>		Se un Cicerone decide di effettuare la cancellazione
+    	dell'account, dovrà attendere 30 giorni dall'avvio della sua ultima attività a pagamento
+    	per far si che i suoi dati vengano eliminati dal sistema.
+    	Nel caso in cui l'account da eliminare, al momento della cancellazione, abbia ancora
+    	attività a pagamento in corso o nel caso in cui i 30 giorni dall'ultima attività a pagamento
+    	non sono passati, l'account non può essere cancellato.</p>
+        <h2>Modifiche alla presente informativa sulla privacy e termini d'uso</h2>
+        <p>Potremmo aggiornare periodicamente la nostra Informativa sulla privacy ed i nostri
+        Termini d'uso. Ti informeremo di eventuali modifiche pubblicando in questa pagina.</p>
+        <p>Si consiglia di rivedere periodicamente la presente pagina per eventuali modifiche.
+        Le modifiche a tale informativa sulla privacy entrano in vigore nel momento in cui vengono pubblicate su questa pagina.</p>
+        <h2>Contattaci</h2>
+        <p>In caso di domande sulla presente Informativa sulla privacy, si prega di contattarci:</p>
+        <p>	Tramite e-mail a: cicerone@gmail.com</p> ]]>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_get_location">Map</string>
+
+
+</resources>
+

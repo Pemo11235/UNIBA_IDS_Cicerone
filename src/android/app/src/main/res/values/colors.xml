@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1A00B0FF</color>
+    <color name="button1">#1A00B0FF</color>
+    <color name="black">#FF000000</color>
+    <color name="button2">#4A001AFF</color>
+    <color name="background">#E629A7F7</color>
+    <color name="text_on_background">#FFFFFF</color>
+    <color name="secondary_color">#AA392299</color>
+    <color name="header_color">#E60A96D0</color>
+    <color name="cicerone_image_border">#FFFFFF00</color>
+    <color name="globetrotter_image_border">#FFFF0000</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".view.EditPasswordFragment">
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:text="@string/edit_spoken_languages"
+        android:textAlignment="center"
+        android:textColor="@color/text_on_background"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/language_mainView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="20"
+        android:paddingStart="20dp" />
+
+    <Button
+        android:id="@+id/submit_edit_spoken_languages_button"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/auth_button"
+        android:text="@string/submit"
+        android:textColor="@color/text_on_background"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

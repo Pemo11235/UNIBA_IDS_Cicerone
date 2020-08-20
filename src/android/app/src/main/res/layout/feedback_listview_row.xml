@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/feedback_globetrotter_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:textColor="@color/text_on_background"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/feedback_created_on_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:textColor="@color/text_on_background"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/feedback_rating_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@color/text_on_background"
+        android:rating="2.0"
+        android:textAlignment="textStart"
+        android:textColor="@color/text_on_background"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/feedback_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:textColor="@color/text_on_background"
+        android:textSize="20sp" />
+
+</RelativeLayout>
